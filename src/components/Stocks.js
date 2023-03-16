@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchStocks } from '../redux/Stocks/stocksSlice';
+import { NavLink} from 'react-router-dom';
 
 const Stocks = () => {
     const dispatch = useDispatch()
@@ -21,12 +22,15 @@ const Stocks = () => {
                 </h1>
                 <div>
                     {stocksArray.map((stock) => 
+                    <NavLink to={`stock/${stock.symbol}`}>
                     <div>
                     {stock.companyName}
                     <br/>
                     Market Cap: {stock.marketCap}
                     <br/>
-                    </div>)}       
+                    </div>
+                    </NavLink>
+                    )}       
                 </div>
             </section>
         </main>
