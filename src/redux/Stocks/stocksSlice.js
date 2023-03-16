@@ -27,6 +27,23 @@ const stocksSlice = createSlice({
   name: 'stocks',
   initialState,
   reducers: {},
+  extraReducers: (builder) => {
+    builder
+      .addCase(fetchStocks.pending, (state) => ({
+        ...state,
+        isLoading: true,
+      }))
+      .addCase(fetchStocks.fulfilled, (state, action) => ({
+        ...state,
+        isLoading: false,
+        ifSucceed: true,
+        stocks: action.payload,
+      }))
+      .addCase(fetchStocks.rejected, (state) => ({
+        ...state,
+        isLoading: false,
+      }));
+  },
 });
 
 export { fetchStocks }
