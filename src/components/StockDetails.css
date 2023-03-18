@@ -1,0 +1,82 @@
+section {
+  font-weight: bold;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(39, 46, 74);
+  height: 10rem;
+  color: #5a9dffc2;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 5rem;
+  color: #5a9dffc2;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  color: #5a9dffc2;
+}
+
+.breakdown {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  color: #5a9dffc2;
+  background-color: rgb(39, 46, 74);
+  background-image: linear-gradient(rgb(39, 46, 74) 0%, rgb(21, 27, 39) 100%);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  color: #5a9dffc2;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5a9dffc2;
+}
+
+span {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #5a9dffc2;
+}
+
+.arrow {
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin-left: 1rem;
+  color: #5a9dffc2;
+}
+
+.even {
+  color: #5a9dffc2;
+  background-color: rgb(39, 46, 74);
+}
+
+.odd {
+  color: #5a9dffc2;
+  background-color: rgb(39, 46, 74);
+  background-image: linear-gradient(rgb(39, 46, 74) 0%, rgb(21, 27, 39) 100%);
+}

@@ -1,0 +1,127 @@
+
+.main-section {
+  height: 12rem;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(39, 46, 74);
+  color: #5a9dffc2;
+}
+
+.top-icon {
+  height: 100%;
+  font-size: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 1.8rem;
+}
+
+.heading {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: rgb(39, 46, 74);
+  background-image: linear-gradient(rgb(39, 46, 74) 0%, rgb(21, 27, 39) 100%);
+  color: #5a9dffc2;
+}
+
+.symbol {
+  color: #5a9dffc2;
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.stock {
+  height: 10rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6rem;
+  background-color: rgb(39, 46, 74);
+  color: #5a9dffc2;
+}
+
+.stock:nth-child(4n + 2),
+.stock:nth-child(4n + 3):not(:first-child) {
+  background-image: linear-gradient(rgb(39, 46, 74) 0%, rgb(21, 27, 39) 100%);
+}
+
+.arrow {
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.topHalf {
+  box-sizing: border-box;
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.bottomHalf {
+  box-sizing: border-box;
+  height: 5rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: flex-end;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+#searchFormContainer {
+  padding: 0.5rem;
+  box-sizing: border-box;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(39, 46, 74);
+}
+
+#searchForm {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  padding: 0.5rem;
+  font-style: italic;
+  border: none;
+  background: linear-gradient(45deg, black, transparent);
+  color: white;
+}
+
+#closeSearch {
+  color: #5a9dffc2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
