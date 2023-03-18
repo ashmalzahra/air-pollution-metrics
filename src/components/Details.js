@@ -19,8 +19,8 @@ const DetailComponent = () => {
   return (
     <>
       <StockComponent
-        symbol={symbol}
         companyName={companyName}
+        symbol={symbol}
         marketCap={marketCap}
         beta={beta}
         price={price}
