@@ -38,7 +38,7 @@ This React capstone project is about building a mobile web application to check 
 
 ## Live Demo
 
-[Live Demo Link](In Progress)
+[Live Demo Link](https://stocks-metrics-api.netlify.app/)
 
 <!-- Features -->
 
