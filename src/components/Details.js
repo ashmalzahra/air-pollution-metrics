@@ -2,11 +2,10 @@ import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import StockComponent from './StockDetails';
 
-
 const DetailComponent = () => {
-    const { slug } = useParams();
-    const stocksArray = useSelector((store) => store.stocks.stocks);
-    const content = stocksArray.find((stock) => stock.symbol === slug);
+  const { slug } = useParams();
+  const stocksArray = useSelector((store) => store.stocks.stocks);
+  const content = stocksArray.find((stock) => stock.symbol === slug);
   const {
     symbol,
     companyName,
@@ -28,6 +27,6 @@ const DetailComponent = () => {
       />
     </>
   );
-}
+};
 
-export default DetailComponent
+export default DetailComponent;

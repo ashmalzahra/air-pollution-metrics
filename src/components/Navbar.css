@@ -1,25 +1,28 @@
 nav {
-    background-color: rgb(39, 46, 74);
-    color: #5a9dffc2;
-    background-image: linear-gradient(rgb(39, 46, 74) 0%, rgb(21, 27, 39) 100%);
-    font-size: 1rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
+  background-color: rgb(39, 46, 74);
+  color: #5a9dffc2;
+  background-image: linear-gradient(rgb(39, 46, 74) 0%, rgb(21, 27, 39) 100%);
+  font-size: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
 }
+
 .nav-icon {
-    font-size: 1.5rem;
-  }
-  .nav {
-    list-style: none;
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 0;
-  }
-  a {
-    color: #5a9dffc2;
-  }  
+  font-size: 1.5rem;
+}
+
+.nav {
+  list-style: none;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+a {
+  color: #5a9dffc2;
+}

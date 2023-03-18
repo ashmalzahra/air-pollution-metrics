@@ -1,9 +1,9 @@
 import { Provider } from 'react-redux';
 import { MemoryRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
-import store from '../redux/store'
-import Stocks from './Stocks'
-import Stock from './StockDetails'
+import store from '../redux/store';
+import Stocks from './Stocks';
+import Stock from './StockDetails';
 import Navbar from './Navbar';
 import About from './About';
 

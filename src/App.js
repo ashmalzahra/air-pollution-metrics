@@ -4,9 +4,8 @@ import { useEffect } from 'react';
 import DetailComponent from './components/Details';
 import Stocks from './components/Stocks';
 import Show from './components/Show';
-import Layout from './components/Layout'
+import Layout from './components/Layout';
 import About from './components/About';
-
 
 function App() {
   const location = useLocation();
@@ -16,15 +15,15 @@ function App() {
 
   return (
     <Routes>
-    <Route path="/" element={<Layout />}>
-      <Route index element={<Stocks />} />
-      <Route path="stocks" element={<Stocks />} />
-      <Route path="stock" element={<DetailComponent />}>
-        <Route path=":slug" element={<Show />} />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Stocks />} />
+        <Route path="stocks" element={<Stocks />} />
+        <Route path="stock" element={<DetailComponent />}>
+          <Route path=":slug" element={<Show />} />
+        </Route>
+        <Route path="about" element={<About />} />
       </Route>
-      <Route path="about" element={<About />} />
-    </Route>
-  </Routes>
+    </Routes>
   );
 }
 

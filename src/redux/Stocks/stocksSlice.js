@@ -15,7 +15,6 @@ const fetchStocks = createAsyncThunk(
   async () => {
     try {
       const { data } = await axios.get(url);
-      console.log(data);
       return data;
     } catch (error) {
       return error.message;
@@ -46,5 +45,5 @@ const stocksSlice = createSlice({
   },
 });
 
-export { fetchStocks }
+export { fetchStocks };
 export default stocksSlice.reducer;
