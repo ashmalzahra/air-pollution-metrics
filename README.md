@@ -16,7 +16,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📝 License](#license)**
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -34,11 +34,32 @@ This React capstone project is about building a mobile web application to check 
 - VSCode and GitHub
 - [Financial modeling prep API: Stock Data](https://site.financialmodelingprep.com/developer/docs/) 
 
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a> to create the UI.</li>
+    <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a> to manage state.</li>
+    <li><a href="https://tailwindcss.com/">Tailwindcss</a> to apply awesome styles.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://site.financialmodelingprep.com/developer/docs/">Financial Modeling Prep API</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>N/A</li>
+  </ul>
+</details>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Live Demo
-
-[Live Demo Link](https://stocks-metrics-api.netlify.app/)
 
 <!-- Features -->
 
@@ -50,11 +71,22 @@ This React capstone project is about building a mobile web application to check 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Live Demo
+
+[Live Demo Link](https://stocks-metrics-api.netlify.app/)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started
 
 Clone this repository to get started with the project, make sure to configure linters by following the instructions in the [Linters README file](https://github.com/microverseinc/linters-config/blob/master/README.md)
+
+### Prerequisites
+
+In order to run this project you need:
+- A working computer.
+- Connection to internet.
+- [npm](https://www.npmjs.com/) and [Node.js](https://nodejs.org/en/) installed, if you don't have them, please follow this [simple installation guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ### Setup
 
@@ -126,10 +158,23 @@ Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwad
 
 <p align="right">(<a href="#readme-top">back to top</a>)<tra/p>
 
+  <!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Can I use the project for any purpose?**
+
+  - Yes, you can.
+
+- **Is the information saved in any database?**
+
+  - No, all data is fetched from API.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
